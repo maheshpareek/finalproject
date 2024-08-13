@@ -1,0 +1,89 @@
+/* Container for the entire Order Summary page */
+.order-summary-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+/* Center the heading text */
+.order-summary-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style for the list items */
+.order-summary-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; /* Full width to make sure items align correctly */
+}
+
+/* Style for individual list items */
+.order-summary-container li {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%; /* Full width to make sure list items align correctly */
+}
+
+/* Style for item titles */
+.order-summary-container h2 {
+  font-size: 20px;
+  margin: 0;
+  color: #444;
+}
+
+/* Style for item details */
+.order-summary-container p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Style for total amount */
+.order-summary-container .total-amount {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: right;
+  color: #333;
+  width: 100%; /* Full width to make sure it aligns correctly */
+}
+
+/* Updated Button Styles */
+.order-summary-container button {
+  background: linear-gradient(45deg, #28a745, #218838); /* Green gradient background */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px; /* Reduced padding for narrower button */
+  border-radius: 8px; /* Slightly more rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  width: auto; /* Width adjusts based on content */
+  text-align: center;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for the button */
+.order-summary-container button:hover {
+  background: linear-gradient(45deg, #218838, #28a745); /* Reverse gradient on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Active state for the button */
+.order-summary-container button:active {
+  transform: scale(0.98);
+}

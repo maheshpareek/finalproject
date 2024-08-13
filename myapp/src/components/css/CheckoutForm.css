@@ -1,0 +1,68 @@
+/* Container for the Checkout Form */
+.checkout-form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-form-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.checkout-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-form-container label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.checkout-form-container input,
+.checkout-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.checkout-form-container textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.checkout-form-container button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.checkout-form-container button:hover {
+  background-color: #218838;
+}
+
+.checkout-form-container button:active {
+  transform: scale(0.98);
+}
+
+.checkout-form-container .loading {
+  font-size: 18px;
+  color: #666;
+}

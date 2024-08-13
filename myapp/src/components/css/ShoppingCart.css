@@ -1,0 +1,91 @@
+/* Container Styling */
+.shopping-cart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+li h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+li p {
+  margin: 5px 0;
+}
+
+/* Button Styling */
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  outline: none;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-1px);
+}
+
+button:active {
+  background-color: #004085;
+  transform: translateY(0);
+}
+
+button:focus {
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+/* Checkout Button */
+button.checkout {
+  background-color: #28a745;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+button.checkout:hover {
+  background-color: #218838;
+}
+
+button.checkout:active {
+  background-color: #1e7e34;
+}
+
+/* Empty Cart Message */
+p.empty-cart {
+  font-size: 1.125rem;
+  color: #666;
+}
+
+/* Total Amount Styling */
+p.total-amount {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 20px;
+}

@@ -1,0 +1,75 @@
+/* Container for the navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50; /* Darker background color for a sleek look */
+  padding: 15px 30px; /* More padding for a balanced layout */
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Logo section */
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ecf0f1; /* Light color for the logo */
+  letter-spacing: 2px;
+}
+
+/* Menu items container */
+.navbar-menu {
+  display: flex;
+  gap: 20px; /* Space out the links a bit more */
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual menu items */
+.navbar-menu li {
+  list-style: none;
+}
+
+/* Link styles */
+.navbar-menu a {
+  color: #ecf0f1;
+  text-decoration: none !important; /* Remove underline */
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for links */
+.navbar-menu a:hover {
+  background-color: #34495e; /* Darker background on hover */
+  color: #ffffff; /* Ensure text remains readable */
+}
+
+/* Authentication buttons */
+.navbar-auth {
+  display: flex;
+  gap: 15px;
+}
+
+/* Authentication buttons styling */
+.navbar-auth button {
+  background-color: #34495e; /* Red button for login/logout */
+  color: #ffffff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Button hover effect */
+.navbar-auth button:hover {
+  background-color: #34495e; /* Darker red on hover */
+}
+
+/* Button active effect */
+.navbar-auth button:active {
+  transform: scale(0.95); /* Slight shrink on click */
+}
